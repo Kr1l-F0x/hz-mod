@@ -1,6 +1,8 @@
 package net.kr1lgema.hzmod;
 
 import com.mojang.logging.LogUtils;
+import net.kr1lgema.hzmod.block.ModBlocks;
+import net.kr1lgema.hzmod.item.ModCreativeModTabs;
 import net.kr1lgema.hzmod.item.ModItems;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.CreativeModeTabs;
@@ -28,7 +30,10 @@ public class HzMod
     {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
+        ModCreativeModTabs.register(modEventBus);
+
         ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 

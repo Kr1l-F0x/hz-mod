@@ -1,3 +1,7 @@
 {
-  "item.hzmod.hzcrystal": "Hz crystal"
+  "item.hzmod.hzcrystal": "Hz crystal",
+
+  "block.hzmod.hzcrystal_block": "Hz crystal block",
+
+  "creativetab.hztab": "HZ tab"
 }
