@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "#A#",
+    "###"
+  ],
+  "key":
+    {
+      "#": {
+        "item": "hzmod:hzcrystal"
+      },
+      "A": {
+        "item": "minecraft:amethyst_block"
+      }
+    },
+  "result": {
+    "item": "hzmod:hzcrystal_block",
+    "count": 1
+  }
+}

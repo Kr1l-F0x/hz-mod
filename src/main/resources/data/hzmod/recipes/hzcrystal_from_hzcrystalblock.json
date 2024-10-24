@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "hzmod:hzcrystal_block"
+    }
+  ],
+  "result": {
+    "item": "hzmod:hzcrystal",
+    "count": 9
+  }
+}

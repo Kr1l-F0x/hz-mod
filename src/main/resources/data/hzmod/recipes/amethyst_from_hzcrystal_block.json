@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "hzmod:hzcrystal_block"
+  },
+  "result": "minecraft:amethyst_block"
+}
